@@ -1,0 +1,50 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.orogersilva.cleanjack'
+
+install {
+
+    repositories.mavenInstaller {
+
+        pom {
+
+            project {
+
+                packaging 'jar'
+                groupId 'com.orogersilva.cleanjack'
+                artifactId 'clean-jack'
+
+                name 'CleanJack'
+                description 'A skeleton for Clean Architecture.'
+                url 'https://github.com/orogersilva/clean-jack'
+
+                licenses {
+
+                    license {
+
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+
+                developers {
+
+                    developer {
+
+                        id 'orogersilva'
+                        name 'Roger Silva'
+                        email 'orogersilva@gmail.com'
+                    }
+                }
+
+                scm {
+
+                    connection 'https://github.com/orogersilva/clean-jack.git'
+                    developerConnection 'https://github.com/orogersilva/clean-jack.git'
+                    url 'https://github.com/orogersilva/clean-jack'
+
+                }
+            }
+        }
+    }
+}
