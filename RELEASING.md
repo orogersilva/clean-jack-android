@@ -9,6 +9,8 @@ Release
 
 2. Update the `CHANGELOG.md` file describing the internal and/or fix changes.
 
+3. Update READ.ME with the new library version.
+
 3. Commit the changes with `git commit -am "Preparing version X.Y.Z"`, replacing 'X.Y.Z' with the
     number of the new version.
 
