@@ -7,6 +7,6 @@ Download
 
 ```groovy
 dependencies {
-  compile 'com.orogersilva.cleanjack:clean-jack:0.2.0'
+  compile 'com.orogersilva.cleanjack:clean-jack:0.2.4'
 }
 ```
