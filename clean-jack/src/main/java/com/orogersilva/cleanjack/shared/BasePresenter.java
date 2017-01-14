@@ -1,4 +1,4 @@
-package com.orogersilva.cleanjack;
+package com.orogersilva.cleanjack.shared;
 
 /**
  * Created by orogersilva on 1/12/2017.

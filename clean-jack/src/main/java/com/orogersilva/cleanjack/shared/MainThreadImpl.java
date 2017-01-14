@@ -1,4 +1,4 @@
-package com.orogersilva.cleanjack;
+package com.orogersilva.cleanjack.shared;
 
 import android.os.Handler;
 
